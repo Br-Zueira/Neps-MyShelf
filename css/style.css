@@ -17,10 +17,7 @@
     border-style: solid;
     border-radius: 8px;
     flex-direction: row;
-}
-
-.card a {
-    display: block;
+    box-shadow: 10px 10px 5px gray;
 }
 
 .card:hover {
@@ -33,7 +30,7 @@
 
 .card-info {
     margin: 0.5rem;
-    overflow-wrap: anywhere;
+    overflow-wrap: break-word;
 }
 
 .card-image {
