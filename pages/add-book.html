@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>MyShelf</title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="../index.html">MyShelf</a>
+        </header>
+
+        <main>
+            <form action="" method="get" class="add-book" autocomplete="on">
+                <label for="cover">Capa do livro:</label>
+                <input id="cover" name="cover" type="url" required>
+
+                <label for="read-date">Data de leitura:</label>
+                <input id="read-date" name="read-date" type="date">
+
+                <label for="score">Nota para o livro:</label>
+                <select id="score" name="score" required>
+                    <option disabled selected value="">Selecione uma nota de 1 a 5</option>
+                    <option value="1">1 estrela</option>
+                    <option value="1">2 estrelas</option>
+                    <option value="1">3 estrelas</option>
+                    <option value="1">4 estrelas</option>
+                    <option value="1">5 estrelas</option>
+                </select>
+
+                <label for="review">Sua resenha:</label>
+                <textarea id="review" name="review" required></textarea>
+
+                <button type="submit">Enviar resenha</button>
+            </form>
+            <p>Nota: esse formulário é fictício, portanto nenhum dado enviado será salvo ou utilizado em nenhum lugar.</p>
+        </main>
+
+        <footer>
+            <p>Página criada por Br-Zueira para a Neps Academy.</p>
+            <a href="https://www.github.com/Br-Zueira/Neps-MyShelf" class="url">Repositório do projeto (resguardado sob os termos da licensa GAPL versão 3)</a>
+        </footer>
+    </body>
+</html>
