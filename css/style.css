@@ -10,6 +10,7 @@
     width: 30vw;
     height: auto;
     justify-content: center;
+    align-content: center;
     margin: 2rem;
     padding: 1rem;
     background-color: lightgrey;
@@ -22,10 +23,6 @@
 
 .card:hover {
     background-color: darkgray;
-}
-
-@media screen and (max-width: 767px) {
-    .booklist { flex-direction: column; }
 }
 
 .card-info {
@@ -62,4 +59,9 @@ a:hover {
 
 .url {
     color: blue;
+}
+
+@media screen and (max-width: 767px) {
+    .booklist { flex-direction: column; }
+    .card { flex-direction: column; margin: 5%;}
 }
